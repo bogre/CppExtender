@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/boki/Projects/CppTrainings/CppExtender/build/out",
+  "command": "/usr/bin/c++ -I/home/boki/Projects/CppTrainings/CppExtender/src -fno-builtin -Wall -Wextra -pedantic -std=gnu++20 -o CMakeFiles/extender.dir/src/dyna_polymorphism.cpp.o -c /home/boki/Projects/CppTrainings/CppExtender/src/dyna_polymorphism.cpp",
+  "file": "/home/boki/Projects/CppTrainings/CppExtender/src/dyna_polymorphism.cpp"
+},
+{
+  "directory": "/home/boki/Projects/CppTrainings/CppExtender/build/out",
+  "command": "/usr/bin/c++ -I/home/boki/Projects/CppTrainings/CppExtender/src -fno-builtin -Wall -Wextra -pedantic -std=gnu++20 -o CMakeFiles/extender.dir/main.cpp.o -c /home/boki/Projects/CppTrainings/CppExtender/main.cpp",
+  "file": "/home/boki/Projects/CppTrainings/CppExtender/main.cpp"
+}
+]
