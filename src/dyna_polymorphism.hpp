@@ -16,15 +16,15 @@ namespace dyna
   {
     auto attack() -> void override;
   };
-  class knight_archor : public combat_unit
+  class knight_archer : public combat_unit
   {
     std::string msg;
 
   public:
-    explicit knight_archor(std::string_view msg = "draw the sword, arm the arrow") : msg{msg}
+    explicit knight_archer(std::string_view msg = "draw the sword, arm the arrow") : msg{msg}
     {
     }
     auto attack() -> void override;
   };
-  auto operator+(const knight& knig, const archor& arch) -> knight_archor;
+  auto operator+(const knight& knig, const archor& arch) -> knight_archer;
 }  // namespace dyna

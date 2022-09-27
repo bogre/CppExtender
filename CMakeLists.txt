@@ -9,6 +9,8 @@ endif()
 set (CMAKE_CXX_STANDARD 20)
 add_executable(extender src/dyna_polymorphism.hpp
                         src/dyna_polymorphism.cpp
+                        src/static_polymorphism.hpp
+                        src/static_polymorphism.cpp
 main.cpp)
 target_include_directories(extender PUBLIC src)
 set_target_properties(extender PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")

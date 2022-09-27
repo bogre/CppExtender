@@ -7,11 +7,11 @@ namespace dyna
 {
   auto knight::attack() -> void
   {
-    std::puts("pull the sword out");
+    std::puts("pull the sword out dynamically");
   }
   auto archor::attack() -> void
   {
-    std::puts("arm the arrow");
+    std::puts("dynamically arm the arrow");
   }
   auto knight_archor::attack() -> void
   {
