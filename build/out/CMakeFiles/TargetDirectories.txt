@@ -1,3 +1,0 @@
-/home/boki/Projects/CppTrainings/CppExtender/build/out/CMakeFiles/extender.dir
-/home/boki/Projects/CppTrainings/CppExtender/build/out/CMakeFiles/edit_cache.dir
-/home/boki/Projects/CppTrainings/CppExtender/build/out/CMakeFiles/rebuild_cache.dir
