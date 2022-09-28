@@ -1,8 +1,4 @@
 
----
-# There might be some options which are commented out.
-# This is due to the currently required version of clang-format.
-# Once the version is updated these options should be activated.
 Language:        Cpp
 AccessModifierOffset: -2
 AlignAfterOpenBracket: AlwaysBreak
@@ -59,9 +55,6 @@ ForEachMacros:
   - BOOST_FOREACH
 IncludeBlocks:   Regroup
 IncludeCategories:
-  - Regex:           '^<EPyC/.*>'
-    Priority:        1
-    SortPriority:    0
   - Regex:           '^<.*\.hpp>'
     Priority:        4
     SortPriority:    0
@@ -74,6 +67,10 @@ IncludeCategories:
   - Regex:           '.*'
     Priority:        3
     SortPriority:    0
+  - Regex:           '^<EXTCpp/.*>'
+    Priority:        1
+    SortPriority:    0
+
 IncludeIsMainRegex: '([-_](test|unittest))?$'
 IncludeIsMainSourceRegex: '(\.hpp)$'
 IndentCaseBlocks: false

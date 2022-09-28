@@ -12,7 +12,7 @@ namespace dyna
   {
     auto attack() -> void override;
   };
-  struct archor : combat_unit
+  struct archer : combat_unit
   {
     auto attack() -> void override;
   };
@@ -26,5 +26,5 @@ namespace dyna
     }
     auto attack() -> void override;
   };
-  auto operator+(const knight& knig, const archor& arch) -> knight_archer;
+  auto operator+(const knight& knig, const archer& arch) -> knight_archer;
 }  // namespace dyna

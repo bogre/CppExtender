@@ -9,16 +9,16 @@ namespace dyna
   {
     std::puts("pull the sword out dynamically");
   }
-  auto archor::attack() -> void
+  auto archer::attack() -> void
   {
     std::puts("dynamically arm the arrow");
   }
-  auto knight_archor::attack() -> void
+  auto knight_archer::attack() -> void
   {
     std::puts(msg.c_str());
   }
-  auto operator+([[maybe_unused]] const knight& knig, [[maybe_unused]] const archor& arch) -> knight_archor
+  auto operator+([[maybe_unused]] const knight& knig, [[maybe_unused]] const archer& arch) -> knight_archer
   {
-    return knight_archor{"overloaded +op created this well armed knight"};
+    return knight_archer{"overloaded +op created this well armed knight"};
   }
 }  // namespace dyna

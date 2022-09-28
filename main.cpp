@@ -9,7 +9,7 @@ auto main() -> int
 {
   std::puts("\ndynamic polymorphism demo:\n");
   auto knight         = dyna::knight();
-  auto archer         = dyna::archor();
+  auto archer         = dyna::archer();
   auto serious_knight = dyna::knight_archer();
   auto summed_knight  = knight + archer;
 
@@ -25,7 +25,6 @@ auto main() -> int
   auto sarcher         = stat::archer();
   auto serious_sarcher = stat::knight_archer();
 
-  // attack(std::vector<stat::combat_unit*>{&knight, &archor, &serious_knight, &summed_knight});
   sknight.attack();
   sarcher.attack();
   serious_sarcher.attack();
