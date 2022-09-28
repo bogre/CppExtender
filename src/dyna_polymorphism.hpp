@@ -21,9 +21,7 @@ namespace dyna
     std::string msg;
 
   public:
-    explicit knight_archer(std::string_view msg = "draw the sword, arm the arrow") : msg{msg}
-    {
-    }
+    explicit knight_archer(std::string_view msg = "hey knight_archer, draw the sword, arm the bow") : msg(msg){};
     auto attack() -> void override;
   };
   auto operator+(const knight& knig, const archer& arch) -> knight_archer;

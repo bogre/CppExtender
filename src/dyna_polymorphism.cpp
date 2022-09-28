@@ -7,11 +7,11 @@ namespace dyna
 {
   auto knight::attack() -> void
   {
-    std::puts("pull the sword out dynamically");
+    std::puts("hey knight, draw the sword");
   }
   auto archer::attack() -> void
   {
-    std::puts("dynamically arm the arrow");
+    std::puts("hey archer, prepare the bow");
   }
   auto knight_archer::attack() -> void
   {
@@ -19,6 +19,6 @@ namespace dyna
   }
   auto operator+([[maybe_unused]] const knight& knig, [[maybe_unused]] const archer& arch) -> knight_archer
   {
-    return knight_archer{"overloaded +op created this well armed knight"};
+    return knight_archer{"hey 'summed' knight_archer, you're well armed by overloaded op+"};
   }
 }  // namespace dyna

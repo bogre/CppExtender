@@ -25,8 +25,8 @@ auto main() -> int
   auto sarcher         = stat::archer();
   auto serious_sarcher = stat::knight_archer();
 
-  sknight.attack();
-  sarcher.attack();
-  serious_sarcher.attack();
+  stat::attack(sknight);
+  stat::attack(sarcher);
+  stat::attack(serious_sarcher);
   return 0;
 }

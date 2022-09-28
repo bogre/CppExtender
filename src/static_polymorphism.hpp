@@ -1,6 +1,6 @@
 #pragma once
-#include <string_view>
 #include <string>
+#include <string_view>
 namespace stat
 {
   template <typename D>
@@ -24,9 +24,14 @@ namespace stat
     std::string msg;
 
   public:
-    explicit knight_archer(std::string_view msg = "prepare your arsenal") : msg(msg)
+    explicit knight_archer(std::string_view msg = "hey knight_archer, prepare your arsenal") : msg(msg)
     {
     }
     auto attack() -> void;
   };
+  template <typename CombatUnit>
+  auto attack(stat::combat_unit<CombatUnit>& cu)
+  {
+    cu.attack();
+  }
 }  // namespace stat

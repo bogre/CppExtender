@@ -6,11 +6,11 @@ namespace stat
 {
   auto knight::attack() -> void
   {
-    std::puts("draw your static sword");
+    std::puts("hey knight, draw your sword");
   }
   auto archer::attack() -> void
   {
-    std::puts("prepare your static arch");
+    std::puts("hey archer, prepare your bow");
   }
   auto knight_archer::attack() -> void
   {
